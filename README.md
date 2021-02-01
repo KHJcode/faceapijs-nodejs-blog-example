@@ -1,28 +1,29 @@
-## Node.js server using tensorflow.js and face-api.js example
+### Node.js server using tensorflow.js and face-api.js example
 
 <br />
 
 ### Setup
-```$
-npm i
+```sh
+$ npm i
 ```
+
 <br />
 
 ### Development
-```$
-npm run dev
+```sh
+$ npm run dev
 ```
 
 <br />
 
 ### Build
-```$
-npm run build
+```sh
+$ npm run build
 ```
 
 <br />
 
 ### Production
-```$
-npm run start
+```sh
+$ npm run start
 ```

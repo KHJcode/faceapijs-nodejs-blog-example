@@ -6,7 +6,7 @@ import faceRouter from './routes/face';
 const app = express();
 const prod = process.env.NODE_ENV === 'production';
 
-app.set('port', prod ? process.env.PORT : 5050);
+app.set('port', prod ? process.env.PORT : 6000);
 
 app.use(cors());
 

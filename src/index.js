@@ -12,16 +12,11 @@ app.use(cors());
 
 app.use('/face', faceRouter);
 
-app.get('/', (req, res, next) => {
-  res.status(200).json('Hello, Server.');
-});
+app.get('/', (req, res, next) => res.status(200).json('Hello, Server.'));
 
 app.get('*', (err, req, res, next) => {
   console.log(err);
   res.status(500).send('error');
 });
 
-app.listen(app.get('port'), () => {
-  console.log(`Server listening on ${app.get('port')}.`);
-});
-
+app.listen(app.get('port'), console.log(`Server listening on ${app.get('port')}.`));

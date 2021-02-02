@@ -27,8 +27,10 @@ const run = async (mode) => {
     .withFaceLandmarks()
     .withAgeAndGender());
 
-  return result[mode];
-}
+  if (result) return result[mode];
+
+  return 'not found';
+};
 
 router.post('/gender', uploadWithOriginalFilename.single('image'), async (req, res, next) => {
   try {

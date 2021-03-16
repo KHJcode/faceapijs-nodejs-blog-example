@@ -3,12 +3,13 @@ A Node.js server that analyzes face images using tensorflow.js and face-api.js l
 
 <br/>
 
-※ My Blog Post: https://www.khjcode.com/post/4
+My Blog Post: https://www.khjcode.com/post/4
 
 <br/><br/>
 
 ## Run
----
+
+<br/>
 
 ### Setup
 ```

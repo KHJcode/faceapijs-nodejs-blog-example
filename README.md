@@ -7,8 +7,7 @@ A Node.js server that analyzes face images using tensorflow.js and face-api.js l
 
 <br/><br/>
 
-### Run
-
+## Run
 ---
 
 ### Setup

@@ -7,9 +7,7 @@ My Blog Post: https://www.khjcode.com/post/4
 
 <br/><br/>
 
-## Run
-
-<br/>
+# Run
 
 ### Setup
 ```

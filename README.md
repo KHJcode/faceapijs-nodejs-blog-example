@@ -1,4 +1,4 @@
-# Node.js server using tensorflow.js and face-api.js example
+# Face-api.js Node.js Example
 A Node.js server that analyzes face images using tensorflow.js and face-api.js libraries.
 
 <br/>
